@@ -8,6 +8,9 @@ body{
     font-family: "Work Sans", sans-serif;
 }
 
+main{
+    margin: 0px 240px;
+}
 
 /* Navbar section CSS */
 
@@ -112,8 +115,279 @@ header{
     margin-top: 50px;
 }
 
+/* Our team section CSS */
 
+.team-container{
+    display: flex;
+    margin: 0 60px;
+    margin-top: 85px;
+}
 
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.team-text{
+    margin-top: 202px;
+    margin-left: 76px;
+}
+
+.team-text h2{
+    width: 468px;
+    color:#727272;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.team-of-our{
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-text-feature{
+    color: #FF900E;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-text p{
+    width: 537px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+}
+
+.team-text button{
+    margin-top: 32px;
+}
+
+/* Our feature section CSS */
+
+.feature-container{
+    display: flex;
+    margin-top: 130px;
+}
+
+.feature-title-container{
+    width: 5px;
+    height: 106px;
+    flex-shrink: 0;
+    background: #FF900E;
+}
+
+.feature-title{
+    width: 468px;
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 21px;
+}
+
+.feature-des{
+    width: 586px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+}
+
+.feature-bottom-text{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.feature-bottom-text h6{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.feature-bottom-text p{
+    width: 514px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 10px;
+}
+
+.feature-img-container{
+    margin-left: 146px;
+}
+
+.experience-box{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: absolute;
+    top: 3100px;
+    right: 680px;
+}
+
+.experience-box h1{
+    width: 265px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 107.692% */
+    margin: 0 auto;
+    padding-top: 46px;
+    
+
+}
+
+.experience-box h5{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* some fact section CSS */
+
+.fact-container{
+    margin-top: 180px;
+}
+.fact-container-text h2{
+    color:  #131313;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.fact-container-text p{
+    width: 542px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+}
+
+.fact-icon-boxes-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.icon-box{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.icon-box:hover {
+    border: 1px solid #5500ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.icon-img{
+    width: 46px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.icon-box h2{
+    color:  #424242;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon-box p{
+    color:  #727272;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Sponspors section CSS */
+
+.sponspors-text{
+    width: 542px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.sponspors-text h2{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sponspors-text p{
+    width: 542px;
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+}
+
+.sponspors-img-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Footer section CSS */
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 0 240px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+
+.footer-text{
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+
+.footer-text p{
+    color: #424242;
+    font-family: "Work Sans";
+    font-size:1.25rem;
+    font-weight: 400;
+}    
 
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////////// */
@@ -127,6 +401,11 @@ header{
         margin: 0px;
         padding: 0px;
     }
+
+    main{
+        margin: 0px 40px;
+    }
+
 
     /* Navbar section CSS */
 
@@ -234,6 +513,305 @@ header{
     width: 100%;
     margin-top: 25px;
 }
+
+/* Our team section CSS */
+
+.team-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin:  0px;
+    margin-top: 60px;
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 32px;
+
+}
+
+.team-text{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.team-text h2{
+    width: 300px;
+    color:#727272;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.team-of-our{
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.team-text-feature{
+    color: #FF900E;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.team-text p{
+    width: 350px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 16px;
+}
+
+.team-text button{
+    margin-top: 16px;
+}
+
+/* Our feature section CSS */
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.feature-title-container{
+    width: 5px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FF900E;
+}
+
+.feature-title{
+    width: 268px;
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.feature-des{
+    width: 350px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 20px;
+}
+
+.feature-bottom-text{
+    margin-top: 0px;
+    margin-left:30px;
+}
+
+.feature-bottom-text h6{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.feature-bottom-text p{
+    width: 300px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 10px;
+}
+
+.feature-img-container{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.feature-img-container img{
+    width: 300px;
+    height: auto;
+}
+
+.experience-box{
+    width: 200px;
+    height: 90px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: absolute;
+    top: 3930px;
+    right: 185px;
+}
+
+.experience-box h1{
+    width: 140px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 107.692% */
+    margin: 0 auto;
+    padding-top: 20px;
+    
+
+}
+
+.experience-box h5{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* some fact section CSS */
+
+.fact-container{
+    margin-top: 90px;
+}
+.fact-container-text h2{
+    color:  #131313;
+    font-family: "Work Sans";
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.fact-container-text p{
+    width: 350px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px; /* 162.5% */
+    margin-top: 14px;
+}
+
+.fact-icon-boxes-container{
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+
+.icon-box{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    
+}
+
+.icon-box:hover {
+    border: 1px solid #5500ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.icon-img{
+    width: 46px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.icon-box h2{
+    color:  #424242;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon-box p{
+    color:  #727272;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Sponspors section CSS */
+
+.sponspors-text{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.sponspors-text h2{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sponspors-text p{
+    width:350px;
+    color:  #727272;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 14px;
+}
+
+.sponspors-img-container{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.sponspors-img-container img{
+    width: 120px;
+    height: auto;
+}
+
+/* Footer section CSS */
+
+.footer-container{
+    width: 345px;
+    height: 70px;
+    border-radius: 6px;
+    background: #FFF4E7;
+    margin: 0px 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.footer-text p{
+    color: #666666;
+    font-family: "Work Sans";
+    font-size:.8rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+}    
+
 }
 
 
@@ -250,6 +828,10 @@ header{
     *{
         margin: 0px;
         padding: 0px;
+    }
+
+    main{
+        margin: 0px 0px;
     }
 
     /* Navbar section CSS */
@@ -357,4 +939,301 @@ header{
     width: 100%;
     margin-top: 40px;
 }
+
+/* Our team section CSS */
+
+.team-container{
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin-top: 0px; */
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    margin-top: 48px;
+
+}
+
+.team-images img{
+    width: 300px;
+    height: auto;
+}
+
+.team-text{
+    margin-top: 0px;
+    margin-left: 48px;
+}
+
+.team-text h2{
+    width: 468px;
+    color:#727272;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.team-of-our{
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-text-feature{
+    color: #FF900E;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-text p{
+    width: 537px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    /* margin-top: 0px; */
+}
+
+
+/* Our feature section CSS */
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px;
+    margin-top: 80px;
+}
+
+.feature-title-container{
+    width: 5px;
+    height: 106px;
+    flex-shrink: 0;
+    background: #FF900E;
+}
+
+.feature-title{
+    width: 400px;
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 21px;
+}
+
+.feature-des{
+    width: 586px;
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+}
+
+.feature-bottom-text{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.feature-bottom-text h6{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.feature-bottom-text p{
+    width: 460px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 10px;
+}
+
+.feature-img-container{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.feature-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.experience-box{
+    width: 280px;
+    height: 140px;
+    border-radius: 8px;
+    background: #FF900E;
+    position: absolute;
+    top: 3420px;
+    right: 420px;
+}
+
+.experience-box h1{
+    width: 200px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 107.692% */
+    margin: 0 auto;
+    padding-top: 12px;
+
+}
+
+.experience-box h5{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* some fact section CSS */
+
+.fact-container{
+    margin: 0px 70px;
+    margin-top: 120px;
+}
+.fact-container-text h2{
+    color:  #131313;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.fact-container-text p{
+    width: 500px;
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 14px;
+}
+
+.fact-icon-boxes-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 508px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.icon-box{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.icon-box:hover {
+    border: 1px solid #5500ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.icon-img{
+    width: 46px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.icon-box h2{
+    color:  #424242;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon-box p{
+    color:  #727272;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Sponspors section CSS */
+
+.sponsors-container{
+    margin: 0px 70px;
+}
+
+.sponspors-text{
+    width: 542px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.sponspors-text h2{
+    color: #131313;
+    font-family: "Work Sans";
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sponspors-text p{
+    width: 542px;
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 16px;
+}
+
+.sponspors-img-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sponspors-img-container img{
+    width: 90px;
+    height: auto;
+}
+
+/* Footer section CSS */
+
+.footer-container{
+    width: 628px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 0 70px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.footer-text p{
+    color: #424242;
+    font-family: "Work Sans";
+    font-size:.8rem;
+    font-weight: 400;
+}    
+
 }
